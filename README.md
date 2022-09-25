@@ -24,4 +24,8 @@ In this analysis linear regression was done to predict the MPG of MechaCar proto
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
 
+    - to determine if the slope of the linear model is not zero, we can look at the p-value of the regression summary. The p-value is 5.35e-11, which means that is significantly smaller than the assumed significance level of 0.05. Therefore we can reject the a null hypothesis, which means the slope of the linear model is not zero.
+
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
+
+    - To determine if the model predicts the mpg of the MechaCar prototypes effectively, we must look at the r-squared value. The r-squared value was .7149, which means that roughly 71% of the variablilty can be explained using this model. With an r-squared of .7149, This model generally predicts the mpg effectively.
