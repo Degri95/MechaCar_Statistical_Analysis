@@ -20,7 +20,7 @@ In this analysis linear regression was done to predict the MPG of MechaCar proto
 
 1. Which variables / coefficients provided a non-random amount of variance to the mpg values in the dataset?
 
-- When determining which variables provide a non-random amount of variance, each variables p-value must be examined. If a variables p-value is less than 0.05, it is statistically significant and unlikely to provide random amounts of variance. In this linear regression model **vehicle length** and **ground clearance** both have a p-value under 0.05. Which means that **vehicle length** and **ground cleanrence** both have significant impact on MPG.
+    - When determining which variables provide a non-random amount of variance, each variables p-value must be examined. If a variables p-value is less than 0.05, it is statistically significant and unlikely to provide random amounts of variance. In this linear regression model **vehicle length** and **ground clearance** both have a p-value under 0.05. Which means that **vehicle length** and **ground cleanrence** both have significant impact on MPG.
 
 2. Is the slope of the linear model considered to be zero? Why or why not?
 
