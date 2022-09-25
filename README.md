@@ -28,4 +28,18 @@ In this analysis linear regression was done to predict the MPG of MechaCar proto
 
 3. Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 
-    - To determine if the model predicts the mpg of the MechaCar prototypes effectively, we must look at the r-squared value. The r-squared value was .7149, which means that roughly 71% of the variablilty can be explained using this model. With an r-squared of .7149, This model generally predicts the mpg effectively.
+    - To determine if the model predicts the mpg of the MechaCar prototypes effectively, we must look at the r-squared value. The r-squared value was .7149, which means that roughly 71% of the variablilty can be explained using this model. With a 71% effective prediction rate, this model should be effective in predicting mpg.
+
+### Summary Statistics on Suspension Coils
+
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Lets dive into the suspension data.
+
+#### All Manufacturing Lots
+![All Manufacturing lots](/Resources/total_summary.PNG)
+
+#### Lot Summary
+![Lot Summary](/Resources/lot_summary.PNG)
+
+#### Results
+
+
