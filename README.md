@@ -51,7 +51,7 @@ T-tests where completed on our data to determine if there is a statistical diffe
 #### All Manufacturing Lots
 ![T-Test All Manufacturing Lots](/Resources/T-test_all.PNG)
 
-Looking at our All Manufacturing Lots T-test, we see that the mean is 1498.78, which matches the summary statistics dataframe above. The p-value for the All Manufacturing Lots T-test is .06, which is higher than the significance level of 0.05. The All Manufacturing Lots T-test concludes that it's mean and population mean are statistically similar.
+Looking at our All Manufacturing Lots T-test, we see that the mean is 1498.78, which matches the summary statistics dataframe above. The p-value for the All Manufacturing Lots T-test is 0.06, which is higher than the significance level of 0.05. The All Manufacturing Lots T-test concludes that it's mean and population mean are statistically similar.
 
 #### Lot 1
 ![T-Test Lot 1](/Resources/T-test_lot1.PNG)
@@ -61,13 +61,34 @@ Lot 1 has a mean value of 1500 and a p-value of 1. Since the p-value is above th
 #### Lot 2
 ![T-Test Lot 2](/Resources/T-test_lot2.PNG)
 
-Lot 2 has a mean value of 1500.2 and a p-value of .61. The p-value is also above the 0.05 significance level, so Lot 2's mean and the population mean are statistically similar.
+Lot 2 has a mean value of 1500.2 and a p-value of 0.61. The p-value is also above the 0.05 significance level, so Lot 2's mean and the population mean are statistically similar.
 
 #### Lot 3
 ![T-Test Lot 3](/Resources/T-test_lot3.PNG)
 
-Lot 3 has a mean value of 1496.14 and a p-value of .04. The p-value is below the 0.05 significance level, meaning that Lot 3 and the population mean are statistically **different**.
+Lot 3 has a mean value of 1496.14 and a p-value of 0.04. The p-value is below the 0.05 significance level, meaning that Lot 3 and the population mean are statistically **different**.
 
 #### Results
 
 All Manufacturing, Lot 1, and Lot 2 all show normal distribution. Lot 3 is the only lot with a p-value below the 0.05 significance level, which should be followed up with additional research. 
+
+## Study Design: MechaCar vs Competition
+
+Digging deeper into how a MechaCar would perform vs competition could be done with many statistical tests. Comparing MPG (city and highway) with selling cost could give insight on if MechaCars MPG vs Cost is comparable to the competition.
+
+#### What metric or metrics are you going to test?
+
+Testing the Selling price as the dependent variable and the MPG (city and highway) as the independent variable. Our results would show if MechaCars MPG vs cost relationship is similar to the competitions.
+
+#### What is the null hypothesis or alternative hypothesis?
+
+H0: MechaCars price is statistically similar to competition based on MPG and.
+Ha: MechaCars price is statistically different to competition based on MPG and.
+
+#### What statistical test would you use to test the hypothesis? And why?
+
+A linear regression would be used to test the hypothesis. Each data set would have a linear model created to show the relationship between the MPG and cost.
+
+#### What data is needed to run the statistical test?
+
+A sample size of MechaCars MPG with cost would be needed, along with the competitions. Around 50 of each would be sufficient. after the data is obtained we would be able to perform our linear regression and get our p-values and correlation. Future costs with the MPG vs cost would hopefully be able to be predicted as well.
